@@ -15,8 +15,8 @@
 <style>
 	.main {
         display: flex !important;
-		text-align: center;
-		padding-top: 25em;
+	text-align: center;
+	padding-top: 25em;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -27,7 +27,7 @@
         list-style: none;
         text-decoration: none;
         cursor: pointer;
-        transition: font-size 550ms ease, color 550ms ease;
+        transition: font-size 550ms ease, color 1ms ease;
         background-color: #5865F2;
         color: #fff;
         padding-top: 5px;
@@ -54,7 +54,7 @@
     @media (max-width: 1000px) {
     .main {
         display: flex !important;
-		padding-top: 20em !important;
+	padding-top: 20em !important;
 	}
     }
 
