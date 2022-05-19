@@ -1,4 +1,4 @@
-<h1>Simple Portofolio Site - (Basit Portofolio Site)</h1>
+Simple Portofolio Site - (Basit Portofolio Site)
 <hr>
 Siteyi kurabilmek için öncelikle Node.js'i kurmanız gerekmekte kurduktan hemen sonra projeyi indirin ve masaüstüne atın. Projede bir terminal çalıştırıp `npm install` veya `yarn` yazıp gerekli modülleri yükleyin. Projeyi localhostta başlatmak için `npm run dev` veya `yarn dev` kullanın. src klasöründe ki `App.svelte` Dosyasında ki gerekli alanları doldurun. 
 
