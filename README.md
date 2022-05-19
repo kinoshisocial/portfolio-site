@@ -6,7 +6,7 @@ Sosyal medya eklemek istersenir;
 ```js
 {
 	key: "<Platform adı>",
-	value: "<Ur>"
+	value: "<Url>"
 }
 ```
 şeklinde ekleyebilirsiniz.
