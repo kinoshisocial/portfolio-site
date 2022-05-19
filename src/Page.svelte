@@ -6,17 +6,17 @@
         <h1>{user.name}</h1>
 	    <p>{user.description}</p>
     <div class="socialmedia">
-        <span><a class="instagram" target="_blank" href="{user.socialmedia.instagram}">İnstagram</a></span>
-        <span><a class="github" target="_blank" href="{user.socialmedia.github}">GitHub</a></span>
-        <span><a class="discord" target="_blank" href="{user.socialmedia.discord}">Discord</a></span>
+        {#each user.socialmedia as socialmedia}
+            <span><a class="{socialmedia.key}" target="_blank" href="{socialmedia.value}">{socialmedia.key}</a></span>
+        {/each}
     </div>
 </div>
 
 <style>
 	.main {
         display: flex !important;
-	text-align: center;
-	padding-top: 25em;
+		text-align: center;
+		padding-top: 25em;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -54,7 +54,7 @@
     @media (max-width: 1000px) {
     .main {
         display: flex !important;
-	padding-top: 20em !important;
+		padding-top: 20em !important;
 	}
     }
 
