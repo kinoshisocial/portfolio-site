@@ -15,8 +15,8 @@
 <style>
 	.main {
         display: flex !important;
-		text-align: center;
-		padding-top: 25em;
+	text-align: center;
+	padding-top: 25em;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -49,6 +49,13 @@
         font-size: 30px;   
         color: #5865F2;
         background-color: #fff;
+    }
+
+    @media (max-width: 1000px) {
+    .main {
+        display: flex !important;
+	padding-top: 20em !important;
+	}
     }
 
 </style>
